@@ -33,7 +33,7 @@ import okhttp3.Response;
 
 public class KickerExporter {
 	
-	private static final String KICKER_URL = "https://www.kicker.cool/%s/matches?date=";
+	private static final String KICKER_URL = "https://kicker.cool/%s/matches?date=";
 	
 	private static final DateTimeFormatter DATE_PATTERN = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 	
